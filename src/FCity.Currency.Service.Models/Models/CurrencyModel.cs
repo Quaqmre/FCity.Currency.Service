@@ -1,6 +1,6 @@
 using System;
 
-namespace FCity.Currency.Service.Models.Models
+namespace FCity.Currency.Service.Models
 {
     public class CurrencyModel
     {

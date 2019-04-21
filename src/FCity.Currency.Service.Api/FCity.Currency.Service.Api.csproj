@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FCity.Currency.Service.Business\FCity.Currency.Service.Business.csproj" />
     <ProjectReference Include="..\FCity.Currency.Service.Models\FCity.Currency.Service.Models.csproj" />
   </ItemGroup>
 

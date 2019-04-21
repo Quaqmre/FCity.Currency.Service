@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc;
+using FCity.Currency.Service.Business.Service;
 
 namespace FCity.Currency.Service.Api
 {
@@ -29,6 +30,11 @@ namespace FCity.Currency.Service.Api
             var connection = @"Server=E1-N019\MYDB;Database=FCity_Dev;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<CurrencyContex>
                 (options => options.UseSqlServer(connection));
+
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped<ICurrencyService, CurrencyService>();
+            services.AddScoped<IMinuteCurrencyService, MinuteCurrencyService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

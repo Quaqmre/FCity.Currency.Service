@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using FCity.Currency.Service.Models.Models;
+using FCity.Currency.Service.Models;
 
 namespace FCity.Currency.Service.Api
 {

@@ -1,0 +1,58 @@
+<Project>
+
+    <PropertyGroup>
+        <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>
+        <LangVersion>7.2</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Label="Package Versions">
+
+        <!-- External Package Dependencies -->
+        <SystemComponentModelAnnotationsVerison>4.5.0</SystemComponentModelAnnotationsVerison>
+        <MicrosoftAspNetCoreAppVerison>2.2.1</MicrosoftAspNetCoreAppVerison>
+        <MicrosoftAspNetCoreMvcVersioningVerison>3.1.2</MicrosoftAspNetCoreMvcVersioningVerison>
+        <MicrosoftAspNetCoreHttpVerison>2.2.0</MicrosoftAspNetCoreHttpVerison>
+        <MicrosoftAspNetCoreHttpFeaturesVerison>2.2.0</MicrosoftAspNetCoreHttpFeaturesVerison>
+        <MicrosoftExtensionsHttpPollyVerison>2.2.0</MicrosoftExtensionsHttpPollyVerison>
+        <MicrosoftExtensionsConfigurationEnvironmentVariablesVerison>2.2.0</MicrosoftExtensionsConfigurationEnvironmentVariablesVerison>
+        <MicrosoftExtensionsConfigurationFileExtensionsVerison>2.2.0</MicrosoftExtensionsConfigurationFileExtensionsVerison>
+        <MicrosoftExtensionsConfigurationJsonVerison>2.2.0</MicrosoftExtensionsConfigurationJsonVerison>
+        <MicrosoftEntityFrameworkCoreVerison>2.2.1</MicrosoftEntityFrameworkCoreVerison>
+        <MicrosoftEntityFrameworkCoreSqlServerVerison>2.2.1</MicrosoftEntityFrameworkCoreSqlServerVerison>
+        <MicrosoftEntityFrameworkCoreToolsVerison>2.2.1</MicrosoftEntityFrameworkCoreToolsVerison>
+        <MicrosoftEntityFrameworkCoreDesignVerison>2.2.1</MicrosoftEntityFrameworkCoreDesignVerison>
+
+        <HtmlAgilityPackNetCoreRVersion>1.5.0.1</HtmlAgilityPackNetCoreRVersion>
+        <AutoMapperVersion>8.0.0</AutoMapperVersion>
+        <FluentValidationVersion>8.1.3</FluentValidationVersion>
+        <DapperVersion>1.50.5</DapperVersion>
+
+        <SerilogVersion>2.8.0</SerilogVersion>
+        <SerilogAspNetCoreVersion>2.1.1</SerilogAspNetCoreVersion>
+        <SerilogExtensionsLoggingVersion>2.0.2</SerilogExtensionsLoggingVersion>
+        <SerilogSettingsConfigurationVersion>3.0.1</SerilogSettingsConfigurationVersion>
+        <SerilogEnrichersEnvironmentVersion>2.1.2</SerilogEnrichersEnvironmentVersion>
+        <SerilogSinksColoredConsoleVersion>3.0.1</SerilogSinksColoredConsoleVersion>
+        <SerilogSinksMSSqlServerVersion>5.1.3-dev-00221</SerilogSinksMSSqlServerVersion>
+        <HangfireAspNetCoreVersion>1.6.22</HangfireAspNetCoreVersion>
+        <HangFireSqlServerVersion>1.6.22</HangFireSqlServerVersion>
+        <HangfireSqlServerRabbitMQCoreVersion>4.0.1</HangfireSqlServerRabbitMQCoreVersion>
+        <PdfRptCoreVersion>1.1.3</PdfRptCoreVersion>
+
+        <!-- HealthChecks Dependencies -->
+        <HealthChecksSystem>2.2.1</HealthChecksSystem>
+        <HealthChecksNetwork>2.2.2</HealthChecksNetwork>
+        <HealthChecksSqlServer>2.2.0</HealthChecksSqlServer>
+        <HealthChecksRedis>2.2.2</HealthChecksRedis>
+        <HealthChecksRabbitMQ>2.2.0</HealthChecksRabbitMQ>
+        <HealthChecksUris>2.2.1</HealthChecksUris>
+        <HealthChecksAwsS3>2.2.0</HealthChecksAwsS3>
+        <HealthChecksUIClient>2.2.2</HealthChecksUIClient>
+
+    </PropertyGroup>
+
+</Project>

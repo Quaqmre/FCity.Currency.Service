@@ -7,12 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FCity.Currency.Service.Business\FCity.Currency.Service.Business.csproj" />
     <ProjectReference Include="..\FCity.Currency.Service.Models\FCity.Currency.Service.Models.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="AutoMapper" Version="$(AutoMapperVersion)" />
+
   </ItemGroup>
 
 </Project>

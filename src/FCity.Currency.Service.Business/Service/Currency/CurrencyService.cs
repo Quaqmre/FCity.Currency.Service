@@ -22,13 +22,13 @@ namespace FCity.Currency.Service.Business.Service
             return x;
         }
 
-        public IRestResponse GetCurrency()
+        public clModel GetCurrency()
         {
             var client = new RestClient("http://apilayer.net/api/live?access_key=03c6064100c7960dff435324bcdee1eb&currencies=USD,EUR,TRY&format=1");
             var request = new RestRequest(Method.GET);
             IRestResponse response = client.Execute(request);
             var json = JsonConvert.DeserializeObject<clModel>(response.Content);
-            return response;
+            return json;
         }
 
     }

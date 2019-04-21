@@ -1,12 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
+using FCity.Currency.Service.Business;
 using FCity.Currency.Service.Business.Service;
+using FCity.Currency.Service.Business.Service.Http.Interface;
 using FCity.Currency.Service.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace FCity.Currency.Service.Api
 {
@@ -15,11 +19,17 @@ namespace FCity.Currency.Service.Api
     {
         private readonly ICurrencyService _currencyservice;
         private readonly IMinuteCurrencyService _minutecurrencyservice;
+        private readonly ICurrencyHttpService _currencyhttpservice;
+
         public HomeController(ICurrencyService currencyservice,
-                                IMinuteCurrencyService minutecurrencyservice)
+                                IMinuteCurrencyService minutecurrencyservice,
+                                ICurrencyHttpService currencyhttpservice
+)
         {
             _currencyservice = currencyservice;
             _minutecurrencyservice = minutecurrencyservice;
+            _currencyhttpservice = currencyhttpservice;
+
         }
         [Route("currency")]
         public async Task<IActionResult> Index()
@@ -34,11 +44,16 @@ namespace FCity.Currency.Service.Api
             return Ok(await _minutecurrencyservice.GetAsync());
         }
         [Route("currencyfromapi")]
-        public IActionResult Gett()
+        public async Task<IActionResult> Gett()
         {
-            System.DateTime dateTime = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
-            var x = _currencyservice.GetCurrency();
-            return Ok();
+
+            CurrencyRequestModel asd = new CurrencyRequestModel() { access_key = "03c6064100c7960dff435324bcdee1eb", currencies = "USD,EUR,TRY", format = "1" };
+            var url = urlExtentions.ToKeyValueURL(asd);
+
+            var y = await _currencyhttpservice.HttpRequest("api/live?" + url, HttpMethod.Get, null);
+            var returnJson = await y.Content.ReadAsStringAsync();
+            var z = JsonConvert.DeserializeObject<clModel>(returnJson);
+            return Ok(z);
         }
 
     }

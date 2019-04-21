@@ -8,6 +8,6 @@ namespace FCity.Currency.Service.Business.Service
     public interface ICurrencyService
     {
         Task<List<CurrencyModel>> GetAsync();
-        RestSharp.IRestResponse GetCurrency();
+        clModel GetCurrency();
     }
 }

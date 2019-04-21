@@ -5,13 +5,13 @@ namespace FCity.Currency.Service.Models.Models
 {
     public class clModel
     {
-        public bool success { get; set; }
-        public string terms { get; set; }
-        public string privacy { get; set; }
-        public decimal timestamp { get; set; }
+        public bool Success { get; set; }
+        public string Terms { get; set; }
+        public string Privacy { get; set; }
+        public decimal TimeStamp { get; set; }
 
-        public string source { get; set; }
-        public sc quotes { get; set; }
+        public string Source { get; set; }
+        public sc Quotes { get; set; }
 
     }
     public class sc

@@ -1,0 +1,17 @@
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\bin\Debug\netcoreapp2.2\FCity.Currency.Service.Api.deps.json
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\bin\Debug\netcoreapp2.2\FCity.Currency.Service.Api.runtimeconfig.json
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\bin\Debug\netcoreapp2.2\FCity.Currency.Service.Api.runtimeconfig.dev.json
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\bin\Debug\netcoreapp2.2\FCity.Currency.Service.Api.dll
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\bin\Debug\netcoreapp2.2\FCity.Currency.Service.Api.pdb
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\bin\Debug\netcoreapp2.2\FCity.Currency.Service.Models.dll
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\bin\Debug\netcoreapp2.2\FCity.Currency.Service.Models.pdb
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\obj\Debug\netcoreapp2.2\FCity.Currency.Service.Api.csprojAssemblyReference.cache
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\obj\Debug\netcoreapp2.2\FCity.Currency.Service.Api.csproj.CoreCompileInputs.cache
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\obj\Debug\netcoreapp2.2\FCity.Currency.Service.Api.RazorAssemblyInfo.cache
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\obj\Debug\netcoreapp2.2\FCity.Currency.Service.Api.RazorAssemblyInfo.cs
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\obj\Debug\netcoreapp2.2\FCity.Currency.Service.Api.AssemblyInfoInputs.cache
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\obj\Debug\netcoreapp2.2\FCity.Currency.Service.Api.AssemblyInfo.cs
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\obj\Debug\netcoreapp2.2\FCity.Currency.Service.Api.RazorTargetAssemblyInfo.cache
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\obj\Debug\netcoreapp2.2\FCity.Currency.Service.Api.csproj.CopyComplete
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\obj\Debug\netcoreapp2.2\FCity.Currency.Service.Api.dll
+C:\Users\mehmetakif.tatar\Desktop\TED-FCity\FCity.Currency.Service\src\FCity.Currency.Service.Api\obj\Debug\netcoreapp2.2\FCity.Currency.Service.Api.pdb

@@ -4,6 +4,7 @@ namespace FCity.Currency.Service.Models.Models
     {
 
         public string CurrencyApi { get; set; }
+        public string CurrencyApiKey { get; set; }
 
     }
 }

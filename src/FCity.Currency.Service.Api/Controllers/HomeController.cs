@@ -47,7 +47,7 @@ namespace FCity.Currency.Service.Api
         public async Task<IActionResult> Gett()
         {
 
-            CurrencyRequestModel asd = new CurrencyRequestModel() { access_key = "03c6064100c7960dff435324bcdee1eb", currencies = "USD,EUR,TRY", format = "1" };
+            CurrencyRequestModel asd = new CurrencyRequestModel() { currencies = "USD,EUR,TRY", format = "1" };
             var url = urlExtentions.ToKeyValueURL(asd);
 
             var y = await _currencyhttpservice.HttpRequest("api/live?" + url, HttpMethod.Get, null);
